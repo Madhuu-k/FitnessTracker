@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="muscles.css">
+    <script src="https://kit.fontawesome.com/68a5abc746.js" crossorigin="anonymous"></script>
+    <title>Biceps</title>
+</head>
+
+    <!-- Header Section -->
+    <header>
+        <div class="rodyn">
+            <a id="title" class="navabarelement" href="">Rodyn</a>
+        </div>
+        
+        <div class="navbar-container">
+            <div class="navbar">
+                <a id="home" class="navabarelement" href="MainWorkoutPage.html" style="color: aquamarine;">Home</a>
+            </div>    
+            
+            <div class="navbar">
+                <a id="explore" class="navabarelement" href="" style="color: aquamarine;">Explore more</a>
+                <div class="dropdown">
+                    <a href="">Keep count on Steps</a>
+                    <a href="">Track your diet</a>
+                </div>
+            </div>    
+
+            <div class="navbar">
+                <a id="aboutus" class="navabarelement" href="" style="color: aquamarine;">About us</a>
+            </div>    
+
+            <div class="navbar">
+                <a id="help" class="navabarelement" href="" style="color: aquamarine;">Help</a>
+            </div>    
+        </div>
+
+        <div class="user">
+            <a>User profile</a>
+            <div class="dropdown-2">
+                <a>Profile</a>
+                <a>Log out</a>
+            </div>
+        </div>
+    </header>
+
+    
+    <div class="moto">Lay the Smackdown on your limits!!</div>
+
+
+    <div class="search-container">
+        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+        <input type="text" placeholder="Search for exercise or choose muscle group" maxlength="20" class="search-bar">
+        <br>   
+    </div>
+
+    <div class="muscles">
+<select id="musclegroup" onchange="navigateToPage(this)">
+    <option value="">Select Muscle Group</option>
+    <option value="MainWorkoutPage.html">Home</option>
+    <option value="Chest.html">Chest</option>
+    <option value="Back.html">Back</option>
+    <option value="Tricep.html">Tricep</option>
+    <option value="Biceps.html">Bicep</option>
+    <option value="Shoulders.html">Shoulder</option>
+    <option value="Traps.html">Traps</option>
+    <option value="Legs.html">Legs</option>
+    <option value="Forearms.html">Forearms</option>
+</select>
+
+        <select id="equipment">
+            <option>Equipment</option>
+            <option>Gym</option>
+            <option>Home</option>
+        </select>
+    </div>
+
+    <!-- Workout Section -->
+    <div class="workoutcontainer">
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/bicep-curl.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Bicep Curls </h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Barbell-curls.webp" alt="Workout 1"> 
+                <h4  class="workout-name">Barbell Curls</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Barbell-preacher-curl.webp" style="height: 270px;" alt="Workout 1"> 
+                <h4 class="workout-name" >Barbell Preacher Curls</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Alt-bicep-curl.webp" alt="Workout 1"> 
+                <h4 class="workout-name" >Alternate Bicep Curls</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Cross-body-hammer-curl.webp" alt="workout 1" style="height: 250px;"> 
+                <h4 class="workout-name" >Cross Body Hammer Curl</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/EZ-bar-curl.webp" alt="Workout 1" style="height: 260px;"> 
+                <h4 class="workout-name"  margin-bottom: 10px;">EZ Bar Curl</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Dumbell-preacher-curl.webp" style="margin-bottom: 0px;" alt="Workout 1"> 
+                <h4 class="workout-name"  margin-bottom: 60px;">Dumbell Preacher Curl</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/One-arm-cable-curl.webp" alt="Workout 1" style="margin-bottom: 30px;"> 
+                <h4 class="workout-name" >One Arm Cable Curl</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Incline-dumbell-curl.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Incline Dumbell Curl</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Reverse-grip-curl.webp" alt="Workout 1"> 
+                <h4 class="workout-name"">Reverse Grip Curl</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Zottan-curl.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Zottman Curls</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Bicep/Hammer-curls.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Hammer Curls</h4> 
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <a class="rights" href="">
+            <i class="fa-solid fa-copyright"></i> All rights reserved
+        </a>
+        <a class="contactus" href="">
+            <i class="fa-brands fa-whatsapp"></i> Contact us through WhatsApp
+        </a>
+        <a class="instagram" href="">
+            <i class="fa-brands fa-instagram"></i> Follow us on Instagram
+        </a>
+        <a class="helpline" href="">
+            <i class="fa-solid fa-headset"></i> Helpline
+        </a>
+    </footer>
+<script>
+    function navigateToPage(selectElement) {
+        const selectedValue = selectElement.value;
+        if (selectedValue) {
+            window.location.href = selectedValue;
+        }
+    }
+</script>
+
+</body>
+</html>

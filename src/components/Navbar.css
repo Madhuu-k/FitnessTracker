@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #222;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  height: 60px;
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 auto;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.signup-btn, .login-btn {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.3rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.signup-btn:hover, .login-btn:hover {
+  background: #fff;
+  color: #222;
+} 

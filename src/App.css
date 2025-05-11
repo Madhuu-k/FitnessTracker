@@ -1,0 +1,380 @@
+body {
+  background-color: #f4f4f4; 
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center; 
+  margin: 0; 
+  position: relative;
+}
+
+.logo {
+  width: 100%; 
+  height: 300px; 
+  object-fit: cover; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.head {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 3em; 
+  color: white; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7), -2px -2px 5px rgba(0, 0, 0, 0.7); 
+  margin: 0; 
+}
+
+.navbar {
+  background-color: #2d2d2d; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  display: block;
+  padding: 35px 20px;
+  color: #ffffff; 
+  text-align: center;
+}
+
+.navbar button {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  padding: 25px 20px;
+  color: #ffffff; 
+  text-align: center;
+  background-color: transparent; 
+  border: none; 
+  cursor: pointer; 
+}
+
+.navbar a:hover {
+  background-color: #444444;
+}
+
+.navbar .signup {
+  margin-left: auto; 
+  display: flex;
+  align-items: center; 
+}
+
+.navbar .login {
+  margin-left: auto; 
+  display: flex;
+  align-items: center; 
+}
+
+.navbar .signup-btn {
+  border: 2px solid;
+  border-radius: 20px;
+  border-width: 1px;
+  padding: 8px 16px;
+}
+
+.navbar .login-btn {
+  border: 2px solid;
+  border-radius: 20px;
+  border-width: 1px;
+  margin-left: 14px;
+  padding: 8px 16px;
+  margin-right: 15px;
+}
+
+.navbar .signup-btn:hover {
+  background-color: #2d6a2f;
+  cursor: pointer; 
+}
+
+.navbar .login-btn:hover {
+  background-color: #2d6a2f;
+  cursor: pointer; 
+}
+
+#page1Heading {
+  display: inline-block;
+  color: #333333; 
+  font-weight: bolder;
+  font-size: 4em;
+  max-width: 40%;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.page1{
+  height: 442.3px;
+}
+
+#page1Text {
+  max-width: 40%;
+  margin-left: 10px;
+  padding: 15px;
+  display: inline-block;
+  color: #333333;
+}
+
+.page1Image {
+  display: block;
+  margin-right: 0px;
+  width: auto;
+  height: 450px;
+  margin-top:auto;
+  float: right;
+}
+
+#page2Heading {
+  color: #333333;
+  font-weight: bolder;
+  font-size: 3em;
+  text-align: center;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+#page2Text {
+  margin: 10px;
+  padding: 15px;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.cards {
+  text-align: center;
+  padding: 15px;
+}
+
+.Card {
+  border: 1px solid #ccc; 
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), -5px -5px 5px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  display: inline-block;
+  vertical-align: top; 
+  box-sizing: border-box;
+}
+
+.Card:hover {
+  background-color: rgba(0, 0, 0, 0.05); 
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.Cardimage {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  margin-bottom: 10px;
+}
+
+#page3Heading {
+  margin: 25px;
+  font-size: 2.5em;
+}
+
+#page3Text {
+  margin: 25px;
+}
+
+.Cardimage1 {
+  width: 50px; 
+  height: 50px; 
+  object-fit: cover; 
+  margin-bottom: 10px;
+}
+
+.Card1 {
+  border: 1px solid #ccc; 
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), -5px -5px 5px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  height: 270px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.Card1:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #333333; 
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;  
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #388e3c;
+}
+
+.footer-content {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+/* Modal background */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #1f1f1f;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Input fields */
+.modal-content input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #333;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Buttons */
+.modal-btn {
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.modal-btn:hover {
+  background-color: #3eb8dd;
+}
+
+/* Close button */
+.close {
+  color: white;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+.card-link:hover .Card {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #232323;
+  color: #eee;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Add to your existing modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1001;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+  background-color: #232323;
+  margin: 5% auto;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: white;
+}

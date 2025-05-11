@@ -1,0 +1,108 @@
+.Header{
+    margin: 0px;
+    height: 80px;
+    background-color: rgb(222, 213, 213);
+    border: 2px solid;
+}
+
+.Title{
+    margin-left: 1%;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px 5px 5px;
+    border-right: 2px solid;
+    border-width: 2px;
+}
+
+.HomepageDirector{
+    margin-left: 0.5%;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.Aboutus{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 2px 20px;
+}
+
+.Contactus{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar{
+    padding: 30px 10px;
+}
+
+.NavElements {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items */
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 20px; /* Adds spacing between elements */
+}
+
+.DietButton {
+    color: rgb(50, 45, 140);
+    margin-left: auto;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 2px solid;
+    border-color: rgb(85, 0, 0);
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 1px 16px;
+}
+
+.DietButton:hover{
+    cursor: pointer;
+    background-color: rgb(241, 211, 235);
+}
+
+.StepTrackerButton {
+    color: rgb(58, 52, 162);
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 20px solid;
+    border-radius: 15px;
+    border-color: rgb(21, 18, 18);
+    border-width: 2px;
+    padding: 1px 15px;
+}
+
+.StepTrackerButton:hover{
+    cursor: pointer;
+    background-color:rgb(241, 211, 235);
+}
+
+body{
+    background-color: yellow;
+}
+
+
+.footer{
+    height: 100px;
+    border: 2px solid;
+    background-color: rgb(222, 213, 213);
+    margin-top: 100%;
+}
+
+.FooterElements{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    color: rgb(61, 61, 145);
+}
+
+.Linkedin{
+    text-decoration: none;
+}
+
+.Linkedin:hover{
+    cursor: pointer;
+}

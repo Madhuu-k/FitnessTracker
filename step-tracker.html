@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodyn - Step Tracker</title>
+    <link rel="stylesheet" href="step-tracker.css">
+</head>
+<body>
+    <!-- Trigger Button (optional) -->
+    <button onclick="openStepTracker()">Open Step Tracker</button>
+
+    <!-- Step Tracker Modal -->
+    <div id="stepTrackerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+
+            <div class="step-tracker-container">
+                <div class="tracker-header">
+                    <h2>Step Tracker</h2>
+                    <p>Track your daily steps and monitor your progress</p>
+                </div>
+
+                <div class="input-group">
+                    <label for="stepGoal">Daily Step Goal:</label>
+                    <input type="number" id="stepGoal" value="10000" min="1">
+                </div>
+
+                <div class="input-group">
+                    <label for="currentSteps">Current Steps:</label>
+                    <input type="number" id="currentSteps" value="0" min="0">
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                        <div class="progress-text" id="progressText">0 / 10000 steps</div>
+                    </div>
+                </div>
+
+                <div class="timer-display" id="timerDisplay">
+                    Duration: 0:00
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-primary" id="startStopBtn">Start Tracking</button>
+                    <button class="btn btn-secondary" id="resetBtn">Reset</button>
+                </div>
+
+                <div class="step-calculator">
+                    <h3>Step Calculator</h3>
+                    <form class="calculator-form" id="stepCalcForm">
+                        <div class="input-group">
+                            <label for="heightInput">Your Height (cm):</label>
+                            <input type="number" id="heightInput" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="timeInput">Walking Time (minutes):</label>
+                            <input type="number" id="timeInput" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Calculate Steps</button>
+                    </form>
+                    <div class="calculator-result" id="stepResult"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="step-tracker.js"></script>
+</body>
+</html>

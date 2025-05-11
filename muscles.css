@@ -1,0 +1,265 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #0d0d0d;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center; 
+    border: 2px solid black;
+    height: 60px;
+    padding: 0px 30px;
+    gap: 10px;
+    background-color: #121212;
+}
+
+.rodyn {
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(240, 231, 231);
+}
+
+#title {
+    text-decoration: overline;
+    font-size: larger;
+    color: rgb(252, 244, 244);
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    border-left: 1px solid beige;
+    position: relative;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar:hover {
+    background-color: #222651;
+}
+
+/* Dropdown Menu */
+.navbar .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #03094b;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    z-index: 10;
+}
+
+.navbar:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.dropdown a:hover {
+    background-color: #222651;
+}
+
+/* User Profile Dropdown */
+.user {
+    position: relative;
+    display: inline-block;
+}
+
+.user:hover {
+    background-color: #03094b;
+}
+
+.user .dropdown-2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #070d52;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    z-index: 10;
+}
+
+.user:hover .dropdown-2 {
+    display: block;
+}
+
+.dropdown-2 a {
+    display: flex;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdown-2 a:hover {
+    background-color: #6f6f71;
+}
+
+/* Motto Section */
+.moto {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(2, 183, 243);
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 40px;
+}
+
+.search-bar {
+    border-radius: 20px;
+    text-align: center;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 500px;
+}
+
+.search-bar:hover {
+    cursor: pointer;
+}
+
+/* Muscle Group and Equipment Dropdowns */
+.muscles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    gap: 20px;
+}
+
+#musclegroup,
+#equipment {
+    border: 1px solid rgb(14, 0, 0);
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    background-color: #464647;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#equipment:hover,
+#musclegroup:hover {
+    cursor: pointer;
+    background-color: #444445;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(78, 78, 79, 0.4);
+}
+
+
+#equipment:hover {
+    cursor: pointer;
+    background-color: #444445;
+}
+/* Workout Section */
+.workoutcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 50px 5px 10px;
+}
+
+.workout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 25px;
+    height: 300px;
+    text-align: center;
+    font-size: 20px;
+    background: #1a1a1a;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: background 0.3s ease, border 0.3s ease, transform 0.2s ease;
+}
+
+.workout:hover {
+    background: linear-gradient(135deg, #323233, #232324);
+    border: 2px solid #4a4b4b;
+    transform: scale(1.07);
+    box-shadow: 0 0 15px rgba(79, 79, 79, 0.4);
+}
+
+.workout img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.workout-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    height: 100px;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #121212;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: aquamarine;
+}
+
+.rights {
+    font-size: 14px;
+}
+
+.contactus,
+.instagram,
+.helpline {
+    font-size: 14px;
+}

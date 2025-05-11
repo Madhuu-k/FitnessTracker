@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="WorkoutPage.css">
+    <script src="https://kit.fontawesome.com/68a5abc746.js" crossorigin="anonymous"></script>
+    <title>Workout Page</title>
+</head>
+
+    <!-- Header Section -->
+    <header>
+        <div class="rodyn">
+            <a id="title" class="navabarelement" href="">Rodyn</a>
+        </div>
+
+        <div class="navbar-container">
+            <div class="navbar">
+                <a id="home" class="navabarelement" href="" style="color: #ffffff;">Home</a>
+            </div>    
+            
+            <div class="navbar">
+                <a id="explore" class="navabarelement" href="" style="color: #ffffff;">Explore more</a>
+                <div class="dropdown">
+                    <a href="">Keep count on Steps</a>
+                    <a href="">Track your diet</a>
+                </div>
+            </div>    
+
+            <div class="navbar">
+                <a id="aboutus" class="navabarelement" href="" style="color: #ffffff;">About us</a>
+            </div>    
+
+            <div class="navbar">
+                <a id="help" class="navabarelement" href="" style="color: #ffffff;">Help</a>
+            </div>    
+        </div>
+
+        <div class="user">
+            <a>User profile</a>
+            <div class="dropdown-2">
+                <a>Profile</a>
+                <a>Log out</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="moto">Lay the Smackdown on your limits!!</div>
+
+
+    <div class="search-container">
+        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+        <input id="exercise" type="text" placeholder="Search for exercise or choose muscle group" maxlength="20" class="search-bar">
+        <br>   
+    </div>
+
+    <div class="muscles">
+<select id="musclegroup" onchange="navigateToPage(this)">
+    <option value="">Select Muscle Group</option>
+    <option value="MainWorkoutPage.html">Home</option>
+    <option value="Chest.html">Chest</option>
+    <option value="Back.html">Back</option>
+    <option value="Tricep.html">Tricep</option>
+    <option value="Biceps.html">Bicep</option>
+    <option value="Shoulders.html">Shoulder</option>
+    <option value="Traps.html">Traps</option>
+    <option value="Legs.html">Legs</option>
+    <option value="Forearms.html">Forearms</option>
+</select>
+
+        <select id="equipment">
+            <option>Equipment</option>
+            <option>Home Workout</option>
+            <option>Gym</option>
+            <option>Body weight</option>
+            <option>Dumbells</option>
+            <option>Cardio</option>
+            <option>Plates</option>
+        </select>
+    </div>
+
+    <!-- Workout Section -->
+    <div class="workoutcontainer">
+        <div class="workout">
+            <a href=""><img src="Images/Bench-Press.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Bench Press </h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Barbell-Bent-Over-Row.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Barbell Bent over Row </h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/]Cable-Pushdown-rope.webp" style="height: 260px;" alt="Workout 1"> 
+                <h4 class="workout-name">Rope Pushdown</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Barbell-Curl.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Barbell Curl</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Lat-Pulldown.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Lat Pulldown</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Incline-Bench-Press.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Incline Bench press</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Dumbbell-Seated-Shoulder-Press.webp" style="margin-bottom: 0px; height: 250px;" alt="Workout 1"> 
+                <h4 class="workout-name" style="margin-bottom: 4ch;">Seated Shoulder press</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Cable-Triceps-Pushdown.webp" alt="Workout 1"> 
+                <h4 class="workout-name" style="margin-bottom: -8px;">Cable Pushdown</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Barbell-Full-Squat.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Barbell Squat</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Pull-up.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Pull up</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Skull-Crusher.webp" alt="Workout 1"> 
+                <h4 class="workout-name" >Skull Crushers</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Seated-Chest_fly.webp" style="margin-bottom: 0;" alt="Workout 1"> 
+                <h4 class="workout-name" style="margin-bottom: 10px;">Pec fly</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Leg-Extension.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Leg Extension</h4> 
+            </a>
+        </div>
+        
+        <div class="workout">
+            <a href=""><img src="Images/Seated-Reverse-Fly.webp" style="height: 230px;" alt="Workout 1"> 
+                <h4 class="workout-name">Reverse fly</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Hammer-.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Hammer curl</h4> 
+            </a>
+        </div>
+
+        <div class="workout">
+            <a href=""><img src="Images/Front-raises.webp" alt="Workout 1"> 
+                <h4 class="workout-name">Dumbell Front raises</h4> 
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <a class="rights" href="">
+            <i class="fa-solid fa-copyright"></i> All rights reserved
+        </a>
+        <a class="contactus" href="">
+            <i class="fa-brands fa-whatsapp"></i> Contact us through WhatsApp
+        </a>
+        <a class="instagram" href="">
+            <i class="fa-brands fa-instagram"></i> Follow us on Instagram
+        </a>
+        <a class="helpline" href="">
+            <i class="fa-solid fa-headset"></i> Helpline
+        </a>
+    </footer>
+
+<script>
+    function navigateToPage(selectElement) {
+        const selectedValue = selectElement.value;
+        if (selectedValue) {
+            window.location.href = selectedValue;
+        }
+    }
+</script>
+ 
+</body>
+</html>
